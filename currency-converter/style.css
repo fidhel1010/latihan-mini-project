@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: teal;
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.9);
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.currency-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    margin: 32px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.currency-container select {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.currency-container input {
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    font-size: 24px;
+}
+
+.currency-container input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.currency-container input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.exchange-rate{
+    margin: 14px;
+}
+
+
+select:focus,
+input:focus {
+    outline: none;
+}
